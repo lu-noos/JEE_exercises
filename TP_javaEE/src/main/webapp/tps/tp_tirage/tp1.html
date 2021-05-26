@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TP de tirage au sort</title>
+<link href="../../CSS/styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="http://localhost:8080/TP_javaEE/index.html">Travaux
+			Pratiques réalisés avec Java Enterprise Edition</a>
+	</header>
+	<section>
+		<h1>Un tirage a été effectué entre deux bornes (1 et 10 par défaut). Essayez de le deviner
+			:</h1>
+		<form action="traitementTirage">
+			<label for="nbEssai">Mon essai...</label> <input type="text" name="nbEssai" placeholder="entier" required>
+			<input type="submit" value="TESTER">
+		</form>
+		<br>
+		<h2>Redéfinir les bornes :</h2>
+		<form action="traitementTirage">
+		<label for="borneInf">Borne inférieure : </label><input type="text" name="borneInf" placeholder="entier" required><br>
+		<label for="borneSup">Borne supérieure : </label><input type="text" name="borneSup" placeholder="entier" required><br>
+		<input type="submit" value="Changer">
+		</form>
+	</section>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema ">
+	<display-name>TP_javaEE</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>premiereJSP</servlet-name>
+		<jsp-file>/WEB-INF/premiereJSP.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>premiereJSP</servlet-name>
+		<url-pattern>/tps/tp_chifoumi/premiereJSP</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>pageChifoumi</servlet-name>
+		<jsp-file>/WEB-INF/tp_chifoumi/pageChifoumi.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pageChifoumi</servlet-name>
+		<url-pattern>/tps/tp_chifoumi/pageChifoumi</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>resultatChifoumi</servlet-name>
+		<jsp-file>/WEB-INF/tp_chifoumi/resultatChifoumi.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>resultatChifoumi</servlet-name>
+		<url-pattern>/tps/tp_chifoumi/resultatChifoumi</url-pattern>
+	</servlet-mapping>
+</web-app>
