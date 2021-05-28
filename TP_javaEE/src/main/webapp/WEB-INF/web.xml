@@ -10,6 +10,7 @@
 		<welcome-file>default.html</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	<!-- test -->
 	<servlet>
 		<servlet-name>premiereJSP</servlet-name>
 		<jsp-file>/WEB-INF/premiereJSP.jsp</jsp-file>
@@ -18,7 +19,7 @@
 		<servlet-name>premiereJSP</servlet-name>
 		<url-pattern>/tps/tp_chifoumi/premiereJSP</url-pattern>
 	</servlet-mapping>
-	
+	<!-- pierre feuille ciseaux -->
 	<servlet>
 		<servlet-name>pageChifoumi</servlet-name>
 		<jsp-file>/WEB-INF/tp_chifoumi/pageChifoumi.jsp</jsp-file>
@@ -27,7 +28,7 @@
 		<servlet-name>pageChifoumi</servlet-name>
 		<url-pattern>/tps/tp_chifoumi/pageChifoumi</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<servlet-name>resultatChifoumi</servlet-name>
 		<jsp-file>/WEB-INF/tp_chifoumi/resultatChifoumi.jsp</jsp-file>
@@ -36,4 +37,30 @@
 		<servlet-name>resultatChifoumi</servlet-name>
 		<url-pattern>/tps/tp_chifoumi/resultatChifoumi</url-pattern>
 	</servlet-mapping>
+	<!-- suivi repas -->
+	<servlet>
+		<servlet-name>accueilRepas</servlet-name>
+		<jsp-file>/WEB-INF/tp_suivirepas/accueilRepas.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accueilRepas</servlet-name>
+		<url-pattern>/tps/tp_suivirepas/accueilRepas</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>insertionRepas</servlet-name>
+		<jsp-file>/WEB-INF/tp_suivirepas/insertionRepas.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insertionRepas</servlet-name>
+		<url-pattern>/tps/tp_suivirepas/insertionRepas</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>listeRepas</servlet-name>
+		<jsp-file>/WEB-INF/tp_suivirepas/listeRepas.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listeRepas</servlet-name>
+		<url-pattern>/tps/tp_suivirepas/listeRepas</url-pattern>
+	</servlet-mapping>
+
 </web-app>

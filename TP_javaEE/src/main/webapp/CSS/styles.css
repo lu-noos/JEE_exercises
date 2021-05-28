@@ -18,9 +18,9 @@ a {
 }
 
 section {
-	position:absolute;
+	position: absolute;
 	top: 6rem;
-	left:1rem;
+	left: 1rem;
 }
 
 header a {
@@ -28,6 +28,19 @@ header a {
 	color: #fff;
 	top: 3vh;
 	left: 5vw;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+tr {
+	background-color: #a0a0a0;
+}
+
+td {
+	padding: 8px;
 }
 
 header {
@@ -59,6 +72,25 @@ footer {
 	width: 95vw;
 
 	/*border: 1px black solid;*/
+}
+
+.collapser {
+	background-color: #a0a0a0;
+	text-decoration:underline;
+	color: #0000ff;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+}
+
+.active, .collapsible:hover {
+	background-color: #ccc;
+}
+
+.listealiments {
+	display: block;
 }
 
 .carte {

@@ -24,8 +24,8 @@ public class traitementTirage extends HttpServlet {
 	int borneSup;
 
 	public void init() {
-    	borneInf = Integer.parseInt(this.getInitParameter("borneInf"));
-    	borneSup = Integer.parseInt(this.getInitParameter("borneSup"));
+		borneInf = Integer.parseInt(this.getInitParameter("borneInf"));
+		borneSup = Integer.parseInt(this.getInitParameter("borneSup"));
 		tirage = (int) ((int) borneInf + ((Math.random() * (borneSup - borneInf))));
 		nbEssai = 0;
 	}
@@ -45,7 +45,7 @@ public class traitementTirage extends HttpServlet {
 			} else {
 				response.sendRedirect("http://localhost:8080/TP_javaEE/tps/tp_tirage/echec.html");
 			}
-		} else if (request.getParameter("borneInf") !=null) {
+		} else if (request.getParameter("borneInf") != null) {
 			borneInf = Integer.parseInt(request.getParameter("borneInf"));
 			borneSup = Integer.parseInt(request.getParameter("borneSup"));
 			tirage = (int) ((int) borneInf + ((Math.random() * (borneSup - borneInf))));
