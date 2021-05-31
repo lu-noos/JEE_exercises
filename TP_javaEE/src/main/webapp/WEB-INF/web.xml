@@ -62,5 +62,21 @@
 		<servlet-name>listeRepas</servlet-name>
 		<url-pattern>/tps/tp_suivirepas/listeRepas</url-pattern>
 	</servlet-mapping>
-
+	<!-- changement couleur -->
+	<servlet>
+		<servlet-name>accueilCouleur</servlet-name>
+		<jsp-file>/WEB-INF/tp_changecouleur/accueilCouleur.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accueilCouleur</servlet-name>
+		<url-pattern>/tps/tp_changecouleur/accueilCouleur</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>affichageCouleur</servlet-name>
+		<jsp-file>/WEB-INF/tp_changecouleur/affichageCouleur.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accueilCouleur</servlet-name>
+		<url-pattern>/tps/tp_changecouleur/affichageCouleur</url-pattern>
+	</servlet-mapping>
 </web-app>
