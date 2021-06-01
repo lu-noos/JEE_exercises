@@ -15,10 +15,7 @@
 			couleurTexte= (String) request.getAttribute("couleurTexte");
 		}
 	%>
-	<header>
-		<a href="/TP_javaEE/index.html">Travaux Pratiques réalisés avec
-			Java Enterprise Edition</a>
-	</header>
+	<%@ include file="/header.jsp" %>
 	<section>
 		<h2>Lorem ipsum dolor sit amet.</h2>
 		<p style="color:${cookie.couleurTexte.value}">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi

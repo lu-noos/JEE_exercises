@@ -8,6 +8,7 @@
 <title>Yeah bb</title>
 </head>
 <body>
+<%@ include file="/header.jsp" %>
 	<section>
 		<h1>PREMIERE JSP</h1>
 		<a href="../../index.html">index</a>

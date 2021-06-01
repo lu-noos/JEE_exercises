@@ -8,10 +8,7 @@
 <link href="/TP_javaEE/CSS/styles.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<a href="/TP_javaEE/index.html">Travaux Pratiques réalisés avec
-			Java Enterprise Edition</a>
-	</header>
+	<%@ include file="/header.jsp" %>
 	<section>
 		<h2>Accueil</h2>
 		<form action="gestionCouleur" method="POST">
